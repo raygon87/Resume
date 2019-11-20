@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <script src="https://use.fontawesome.com/7a4807966a.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/mediaQueries/tablet.css">
+    <link rel="stylesheet" href="/styles/mediaQueries/phone.css">
+    <title>Resume</title>
+  </head>
+  <body>
+    <div class="resume-wrapper-outer">
+      <div id="resume-wrapper" class="resume-wrapper">
+        <div id="link-wrapper" class="link-wrapper">
+          <li class="link__list">
+            <a href="https://www.linkedin.com/in/raymondgonzales12" target="_blank" class="link link__linkedIn"><i class="fab fa-linkedin fa-2x"></i></a>
+          </li>
+          <li class="link__list">
+            <a href="https://www.github.com/raygon87" target="_blank" class="link link__github"><i class="fab fa-github fa-2x"></i></a>
+          </li>
+          <li class="link__list">
+            <a href="https://mytube-app.herokuapp.com" target="_blank" class="link link__website"><i class="fas fa-globe fa-2x"></i></a>
+          </li>
+        </div>
+
+        <div class="resume__border"></div>
+
+        <section class="profile">
+          <div class="profile__heading">
+            <div class="shine"></div>
+            <div class="profile__heading-icon"><i class="fas fa-user"></i></div>
+            <div class="profile__heading-text">Profile</div>
+          </div>
+
+          <div class="profile__details">
+            <img src="/images/myPhoto.JPG" alt="profile-photo" class="profile__photo" />
+            <div class="profile__name-wrapper">
+              <div class="profile__name">Raymond Gonzales</div>
+              <div class="profile__title">Full Stack Developer</div>
+            </div>
+            <div class="profile__info">
+              <div class="profile__info-left-side">
+                <div>Phone</div>
+                <div>Email</div>
+                <div>Address</div>
+              </div>
+              <div class="profile__info-right-side">
+                <div>+1 (587) 917-5623</div>
+                <div>emongonzales12@gmail.com</div>
+                <div>Calgary, Alberta</div>
+              </div>
+            </div>
+          </div>
+
+          <p class="profile__description">
+            A Full Stack Developer with knowledge in many different front end and back end languages, frameworks, databases, and best code practices. My objective is simply to be the best full stack developer that I can be and to contribute to the technology industry all that I know and can do. I am dedicated to improving my skills by learning from more experienced developers, staying curious and continuously making good progress to learn all that I can about full stack development.
+          </p>
+        </section>
+
+        <div class="divider-line"></div>
+
+        <section class="resume">
+          <div class="resume__heading">
+            <div class="shine"></div>
+            <div class="resume__heading-icon">
+              <i class="fas fa-align-left"></i>
+            </div>
+            <div class="resume__heading-text">Resume</div>
+          </div>
+
+          <!-- side icon -->
+          <div class="side-icon">
+            <!-- <div class="side-icon__printer" onclick="print()"><i class="fas fa-print"></i></div> -->
+            <div class="side-icon__download">
+              <a href="/Resume.pdf" download="Resume" class="side-icon__download-link">
+               <img src="/images/download.png" alt="download-file" class="side-icon__download-icon">
+              </a>
+             
+            </div>
+          </div>
+
+          <div class="resume__left-side">
+            <div class="employment">
+              <div class="employment__heading">
+                <span class="employment__heading-icon"
+                  ><i class="fas fa-chevron-down"></i></span
+                >Employment
+              </div>
+             
+              <div class="employment__details-wrapper">
+                <div class="employment__title-and-year">
+                  <div class="employment__title">
+                    <span class="employment__chevron-icon"
+                      ><i class="fas fa-chevron-right fa-xs"></i
+                    ></span>
+                    Cook
+                  </div>
+                  <div class="employment__years">
+                    2013-Present
+                  </div>
+                </div>
+                
+                <div class="employment__company">Opa of Greece</div>
+                <div class="employment__job-description">
+                  <span class="employment__dot">&#183;</span>
+                  <p>Season and cook food according to recipes or personal judgement and experience.</p>
+                </div>
+                <div class="employment__job-description">
+                  <span class="employment__dot">&#183;</span>
+                  <p>Observe and test foods to determine if they have been cooked sufficiently.</p>
+                </div>
+                <div class="employment__job-description">
+                  <span class="employment__dot">&#183;</span>
+                  <p>Perform other duties like cashiering and food assembling.</p>
+                </div>
+                <!-- <span
+                  class="employment__see-more"
+                  onclick="openModal('modal-wrapper-1')"
+                  >see more...</span
+                > -->
+
+                <!-- job modal 1 -->
+                <div class="modal-wrapper modal-wrapper-1">
+                  <div class="modal__content">
+                    <div class="modal__title-and-year">
+                      <div class="modal__title">Cook</div>
+                      <div class="modal__years">
+                        2013-Present
+                      </div>
+                    </div>
+                    <div class="modal__company">Opa of Greece</div>
+                    <div class="modal__job-description"></div>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Cumque, aliquam. Dignissimos recusandae voluptatem totam
+                      ducimus fugiat. Ex omnis, officiis quod quaerat maxime,
+                      sapiente recusandae voluptatibus sit ut animi rem?
+                    </p>
+                    <button
+                      class="modal__close"
+                      onclick="closeModal('modal-wrapper-1')"
+                    >
+                      &#10005;
+                    </button>
+                  </div>
+                </div>
+                <!--  -->
+              </div>
+
+              <div class="employment__details-wrapper">
+                <div class="employment__title-and-year">
+                  <div class="employment__title">
+                    <span class="employment__chevron-icon"
+                      ><i class="fas fa-chevron-right fa-xs"></i
+                    ></span>
+                    Full Stack Developer
+                  </div>
+                  <div class="employment__years">
+                    December 2018 - March 2019
+                  </div>
+                </div>
+
+                <div class="employment__company">EvolveU / Cultivatr</div>
+
+                <div class="employment__job-description">
+                  <span class="employment__dot">&#183;</span>
+                  <p>Developed a front-end UI with React from scratch.</p>
+                </div>
+
+                <div class="employment__job-description">
+                  <span class="employment__dot">&#183;</span>
+                  <p>
+                    Developed a back-end server with RESTful Api’s within Python
+                    / NodeJS frameworks.
+                  </p>
+                </div>
+
+                <div class="employment__job-description">
+                  <span class="employment__dot">&#183;</span>
+                  <p>Developed a data model and implemented a PostgreSQL database.</p>
+                </div>
+                
+                <div class="employment__job-description">
+                  <div class="employment__dot">&#183;</div>
+                  <p>
+                    Collaborated with a team and client for user stories, MVP,
+                    design and infrastructure of the application.
+                  </p>
+                </div>
+
+                <span
+                  class="employment__see-more"
+                  onclick="openModal('modal-wrapper-2')"
+                  >See more</span
+                >
+
+                <!-- job modal 2 -->
+                <div class="modal-wrapper modal-wrapper-2">
+                  <div class="modal__content">
+                    <div class="modal__title-and-year">
+                      <div class="modal__title">Full Stack Developer</div>
+                      <div class="modal__years">
+                        December 2018 - March 2019
+                      </div>
+                    </div>
+                    <div class="modal__company">EvolveU / Cultivatr</div>
+                    <div class="employment__job-description">
+                      <span class="employment__dot">&#183;</span>
+                      <p>Developed a front-end UI with React from scratch.</p>
+                    </div>
+                    <div class="employment__job-description">
+                      <span class="employment__dot">&#183;</span>
+                      <p>
+                        Developed a back-end server with RESTful Api’s within
+                        Python / NodeJS frameworks.
+                      </p>
+                    </div>
+
+                    <div class="employment__job-description">
+                      <span class="employment__dot">&#183;</span>
+                      <p>
+                        Developed a data model and implemented a PostgreSQL
+                        database.
+                      </p>
+                    </div>
+                    <div class="employment__job-description">
+                      <div class="employment__dot">&#183;</div>
+                      <p>
+                        Collaborated with a team and client for user stories,
+                        MVP, design and infrastructure of the application.
+                      </p>
+                    </div>
+                    <div class="modal__technologies">
+                      <div class="modal__technologies-heading">
+                        Technologies
+                      </div>
+                      <div class="modal__technologies-box">
+                        <li class="modal__technologies-item modal__technologies-react"><img src="/images/react.png" alt="react" class="modal__technologies-react"></i></li>
+                        <li class="modal__technologies-item modal__technologies-node"><img src="/images/nodejs.png" alt="nodejs" class="modal__technologies-python"></li>
+                        <li class="modal__technologies-item"><img src="/images/python.png" alt="python" class="modal__technologies-python"></i></li>
+                        <li class="modal__technologies-item"><img src="/images/postgresql.png" alt="postgreql" class="modal__technologies-posgresql"></li>
+                        <li class="modal__technologies-item"><img src="/images/semanticUI.png" alt="semanticUi" class="modal__technologies-semanticUi"></li>
+                        <li class="modal__technologies-item"><img src="/images/flask.png" alt="flask" class="modal__technologies-flask"></li>
+                      </div>
+                    </div>
+                    <button
+                      class="modal__close"
+                      onclick="closeModal('modal-wrapper-2')"
+                    >
+                      &#10005;
+                    </button>
+                  </div>
+                </div>
+                <!--  -->
+              </div>
+
+              <div class="employment__details-wrapper">
+                <div class="employment__title-and-year">
+                  <div class="employment__title">
+                    <span class="employment__chevron-icon"
+                      ><i class="fas fa-chevron-right fa-xs"></i
+                    ></span>
+                    Shift Manager
+                  </div>
+                  <div class="employment__years">
+                    2010-2013
+                  </div>
+                </div>
+
+                <div class="employment__company">Racks Restaurant</div>
+
+                <div class="employment__job-description">
+                  <span class="employment__dot">&#183;</span>
+                  <p>Ensured customer satisfaction and gracefully handled any complaints.</p>
+                </div>
+
+                <div class="employment__job-description">
+                  <span class="employment__dot">&#183;</span>
+                  <p>Tracked daily costs and revenues.</p>
+                </div>
+
+                <div class="employment__job-description">
+                  <div class="employment__dot">&#183;</div>
+                  <p>Conducted restuarant staff training and supervisor their performance.</p>
+                </div>
+
+                <div class="employment__job-description">
+                  <div class="employment__dot">&#183;</div>
+                  <p>Created retaurant staff's weekly schedule.</p>
+                </div>
+
+                <div class="employment__job-description">
+                  <div class="employment__dot">&#183;</div>
+                  <p>Effectively communicated golas and addressed concerns during meetings.</p>
+                </div>
+
+                <div class="employment__job-description">
+                  <div class="employment__dot">&#183;</div>
+                  <p>Ensured that proper security and safety procedures are in place to protect employees, customers, and company assets.</p>
+                </div>
+
+                <span
+                  class="employment__see-more"
+                  onclick="openModal('modal-wrapper-3')"
+                  >See more</span
+                >
+
+                 <!-- job modal 3 -->
+                <div class="modal-wrapper modal-wrapper-3">
+                  <div class="modal__content">
+                    <div class="modal__title-and-year">
+                      <div class="modal__title">Full Stack Developer</div>
+                      <div class="modal__years">
+                        December 2018 - March 2019
+                      </div>
+                    </div>
+
+                    <div class="modal__company">EvolveU / Cultivatr</div>
+
+                    <div class="employment__job-description">
+                      <span class="employment__dot">&#183;</span>
+                      <p>Ensured customer satisfaction and gracefully handled any complaints.</p>
+                    </div>
+      
+                    <div class="employment__job-description">
+                      <span class="employment__dot">&#183;</span>
+                      <p>Tracked daily costs and revenues.</p>
+                    </div>
+    
+                    <div class="employment__job-description">
+                      <div class="employment__dot">&#183;</div>
+                      <p>Conducted restuarant staff training and supervisor their performance.</p>
+                    </div>
+    
+                    <div class="employment__job-description">
+                      <div class="employment__dot">&#183;</div>
+                      <p>Created retaurant staff's weekly schedule.</p>
+                    </div>
+    
+                    <div class="employment__job-description">
+                      <div class="employment__dot">&#183;</div>
+                      <p>Effectively communicated golas and addressed concerns during meetings.</p>
+                    </div>
+    
+                    <div class="employment__job-description">
+                      <div class="employment__dot">&#183;</div>
+                      <p>Ensured that proper security and safety procedures are in place to protect employees, customers, and company assets.</p>
+                    </div>
+                    <button
+                      class="modal__close"
+                      onclick="closeModal('modal-wrapper-3')"
+                    >
+                      &#10005;
+                    </button>
+                  </div>
+                </div>
+                  <!--  -->
+              </div>
+            </div>
+
+            <div class="education">
+              <div class="education__heading">
+                <span class="education__heading-icon"
+                  ><i class="fas fa-chevron-down"></i></span
+                >Education
+              </div>
+
+              <div class="education__details-wrapper">
+                <div class="education__title-and-year">
+                  <div class="education__title">
+                    <span class="education__chevron-icon"
+                      ><i class="fas fa-chevron-right fa-xs"></i
+                    ></span>
+                    Full Stack Development
+                  </div>
+                  <div class="education__years">
+                    2018-2019
+                  </div>
+                </div>
+                <div class="education__school">EvolveU</div>
+              </div>
+
+              <div class="education__details-wrapper">
+                <div class="education__title-and-year">
+                  <div class="education__title">
+                    <span class="education__chevron-icon"
+                      ><i class="fas fa-chevron-right fa-xs"></i
+                    ></span>
+                    Hotel And Restaurant Management
+                  </div>
+                  <div class="education__years">
+                    2004-2008
+                  </div>
+                </div>
+                <div class="education__school">
+                  College of the Immaculate Conception
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume__right-side">
+
+            <div class="technologies">
+              <div class="technologies__heading">
+                Technologies
+              </div>
+
+              <div class="techonologies__item">
+                <div class="techonologies__item-name">
+                  Javascript
+                </div>
+                <div class="techonologies__item-percent">
+                  <div
+                    class="techonologies__item-color techonologies__item-purple"
+                  >
+                    <div class="techonologies__item-symbol">90%</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="techonologies__item">
+                <div class="techonologies__item-name">
+                  React
+                </div>
+                <div class="techonologies__item-percent">
+                  <div
+                    class="techonologies__item-color techonologies__item-indigo"
+                  >
+                    <div class="techonologies__item-symbol">80%</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="techonologies__item">
+                <div class="techonologies__item-name">
+                  CSS
+                </div>
+                <div class="techonologies__item-percent">
+                  <div class="techonologies__item-color techonologies__item-blue">
+                    <div class="techonologies__item-symbol">90%</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="techonologies__item">
+                <div class="techonologies__item-name">
+                  Html
+                </div>
+                <div class="techonologies__item-percent">
+                  <div
+                    class="techonologies__item-color techonologies__item-green"
+                  >
+                    <div class="techonologies__item-symbol">95%</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="techonologies__item">
+                <div class="techonologies__item-name">
+                  Node js
+                </div>
+                <div class="techonologies__item-percent">
+                  <div
+                    class="techonologies__item-color techonologies__item-yellow"
+                  >
+                    <div class="techonologies__item-symbol">70%</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="techonologies__item">
+                <div class="techonologies__item-name">
+                  Python
+                </div>
+                <div class="techonologies__item-percent">
+                  <div
+                    class="techonologies__item-color techonologies__item-orange"
+                  >
+                    <div class="techonologies__item-symbol">70%</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="techonologies__item">
+                <div class="techonologies__item-name">
+                  PostgrSQL
+                </div>
+                <div class="techonologies__item-percent">
+                  <div class="techonologies__item-color techonologies__item-red">
+                    <div class="techonologies__item-symbol">80%</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="languages-hobbies-box">
+              <div class="languages">
+                <div class="languages__heading">
+                  Languages
+                </div>
+                <div class="languages__chart-wrapper">
+                  <div class="languages__single-chart">
+                    <svg
+                      viewBox="0 0 36 36"
+                      class="languages__circular-chart languages__circular-blue"
+                    >
+                      <path
+                        class="languages__circle-bg"
+                        d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831"
+                      />
+                      <path
+                        class="languages__circle"
+                        stroke-dasharray="90, 100"
+                        d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831"
+                      />
+                      <text x="18" y="20.35" class="languages__percentage">
+                        90%
+                      </text>
+                    </svg>
+                    <div class="languages__text">English</div>
+                  </div>
+                  <div class="languages__single-chart">
+                    <svg
+                      viewBox="0 0 36 36"
+                      class="languages__circular-chart languages__circular-orange"
+                    >
+                      <path
+                        class="languages__circle-bg"
+                        d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831"
+                      />
+                      <path
+                        class="languages__circle"
+                        stroke-dasharray="95, 100"
+                        d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831"
+                      />
+                      <text x="18" y="20.35" class="languages__percentage">
+                        95%
+                      </text>
+                    </svg>
+                    <div class="languages__text">Filipino</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="hobbies">
+                <div class="hobbies__heading">
+                  Hobbies / Interests
+                </div>
+                <div class="hobbies__list-wrapper">
+                  <div class="hobbies__item hobbies__item-music">
+                    <i class="fas fa-headphones fa-2x icon"></i>
+                  </div>
+                  <div class="hobbies__item hobbies__item-guitar">
+                   <img src="/images/acoustic-guitar.png" alt="guitar">
+                  </div>
+                  <div class="hobbies__item hobbies__item-games">
+                    <i class="fas fa-gamepad fa-2x icon"></i>
+                  </div>
+                  <div class="hobbies__item hobbies__item-reading">
+                    <img src="/images/reading.png" alt="reading">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

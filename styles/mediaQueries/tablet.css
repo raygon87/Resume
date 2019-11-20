@@ -1,0 +1,67 @@
+@media (max-width: 900px) {
+  html {
+    font-size: 55%;
+  }
+
+  .divider-line {
+    height: 1.5px;
+  }
+
+  .languages__percentage {
+    font-size: .9rem;
+  }
+
+  .side-icon__download {
+    right: -6.2rem;
+  }
+
+  .modal__content {
+    margin: 0 5rem;
+    height: auto;
+  }
+
+  .side-icon__download {
+    padding: .75rem 1rem;
+  }
+
+}
+
+@media (max-width: 750px) {
+  html {
+    font-size: 45%;
+  }
+
+  .resume__border {
+    display: none;
+  }
+
+  .profile__heading,
+  .resume__heading {
+    width: 12rem;
+  }
+
+  .hobbies__item-music {
+    height: 4.8rem;
+    width: 4.8rem;
+  }
+
+  .hobbies__item-guitar {
+    height: 4.5rem;
+    width: 4.5rem;
+    left: 3.2rem;
+  }
+
+  .hobbies__item-games {
+    height: 4.1rem;
+    width: 4.1rem;
+    left: 6rem;
+    top: 2rem;
+  }
+
+  .hobbies__item-reading {
+    height: 5rem;
+    width: 5rem;
+    left: 9rem;
+    top: 0.5rem;
+  }
+}

@@ -1,0 +1,204 @@
+@media (max-width: 600px) {
+  body {
+    padding: 0rem;
+  }
+
+  html {
+    font-size: 55%;
+  }
+
+  .resume-wrapper-outer {
+    margin: 0;
+  }
+
+  .resume-wrapper {
+    animation: none;
+    padding: 0 1.5rem;
+  }
+
+  .link {
+    margin-left: 0.8rem;
+  }
+
+  .profile {
+    padding-top: 5.5rem;
+    padding-bottom: 2.7rem;
+  }
+
+  .profile__name {
+    font-size: 1.8rem;
+  }
+
+  .profile__photo {
+    margin-right: 1.2rem;
+    border-radius: 1.5px;
+    width: 10rem;
+    height: 9rem;
+  }
+
+  .profile__info {
+    position: absolute;
+    top: 9.3rem;
+    left: 11.2rem;
+    margin-top: 1.4rem;
+    font-size: 1.2rem;
+  }
+
+  .profile__info-left-side {
+    text-align: left;
+    margin-right: 0.8rem;
+  }
+
+  .profile__heading,
+  .resume__heading {
+    display: flex;
+    align-items: center;
+    padding: 0.7rem;
+    width: 11rem;
+    left: -1.6rem;
+    box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.2);
+  }
+
+  .profile__heading-text,
+  .resume__heading-text {
+    margin-left: 1rem;
+    font-size: 1.3rem;
+  }
+
+  .side-icon__download {
+    right: -1.6rem;
+    padding: .7rem 1rem;
+  }
+
+  .side-icon__download-link img {
+    height: 1.4rem;
+   }
+
+  .resume {
+    flex-wrap: wrap;
+  }
+
+  .resume__left-side {
+    margin-right: 0;
+  }
+
+  .resume__right-side {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    padding-top: 1.8rem;
+    margin-top: 1.4rem;
+    margin-bottom: 2rem;
+    border-top: 1px solid rgb(84, 84, 84);
+  }
+
+  .technologies {
+    width: 60%;
+    margin-right: 3rem;
+  }
+
+  .techonologies__item {
+    margin-bottom: 0.3rem;
+  }
+
+  .techonologies__item-name {
+    margin-bottom: 0.1rem;
+  }
+
+  .languages-hobbies-box {
+    width: 50%;
+  }
+
+  .languages {
+    margin-top: 0;
+  }
+
+  .languages__chart-wrapper {
+    margin-top: 1.5rem;
+  }
+
+  .languages__text {
+    margin-left: 0.7rem;
+    font-size: 1rem;
+  }
+
+  .languages__circular-chart {
+    margin-bottom: 0.5rem;
+  }
+
+  .hobbies {
+    margin-top: 2.3rem;
+  }
+
+  .hobbies__item-music {
+    height: 5.3rem;
+    width: 5.3rem;
+    background: #0099ff;
+    left: 0;
+    top: 1.5rem;
+    z-index: 2;
+  }
+
+  .hobbies__item-guitar {
+    height: 4.9rem;
+    width: 4.9rem;
+    background: #2ecc71;
+    left: 3.6rem;
+    z-index: 2;
+  }
+
+  .hobbies__item-games {
+    height: 4.5rem;
+    width: 4.5rem;
+    background: #ffff00;
+    left: 6.4rem;
+    top: 2.4rem;
+    z-index: 4;
+  }
+
+  .hobbies__item-reading {
+    height: 5.5rem;
+    width: 5.5rem;
+    background: #ff7800;
+    left: 9.4rem;
+    top: 0.1rem;
+    z-index: 3;
+  }
+
+  .modal-wrapper {
+    padding-top: 4rem;
+  }
+
+  .modal__content {
+    margin: 0 2rem;
+    height: auto;
+    padding: 2rem;
+  }
+
+  .modal__technologies-item {
+    margin-right: 1.5rem;
+  }
+
+  .modal__close {
+    right: -1.6rem;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    outline: none;
+  }
+
+  .modal__technologies-box {
+    font-size: 1.38rem;
+    margin-top: 1rem;
+    align-items: center;
+  }
+
+  .modal__technologies-semanticUi,
+  .modal__technologies-flask {
+    height: 3.5rem;
+  }
+
+  .modal__technologies-python {
+    height: 4.3rem;
+  }
+}
