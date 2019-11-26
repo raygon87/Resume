@@ -1,6 +1,6 @@
 /* color  */
 /* white1  #fff */
-/* white2 rgb(184, 184, 184) */
+/* white2 rgb(184, 184, 184) or #b8b8b8 */
 /* white3 rgb(128, 128, 128) or #808080; */
 /* outer background rgb(18, 18, 18) */
 /* blue #3498db */
@@ -117,7 +117,7 @@ p {
 
 .link {
   text-decoration: none;
-  color: rgb(128, 128, 128);
+  color: #808080;
   margin-left: 1rem;
   font-size: 1.2rem;
   transition: 0.2s;
@@ -251,19 +251,22 @@ p {
   font-weight: 700;
 }
 
-.profile__title {
-  color: #3498db;
+.profile__info-right-side {
+  color: #b8b8b8;
 }
 
-.profile__info-span {
-  font-weight: normal;
-  color: rgb(198, 198, 198);
+.profile__title {
+  color: #3498db;
 }
 
 .profile__info-address,
 .profile__info-phone,
 .profile__info-email {
   font-weight: 700;
+}
+
+.profile__description {
+  color: #b8b8b8;
 }
 
 /*  -------------- side icon  -------------- */
@@ -398,21 +401,21 @@ p {
 .employment__company,
 .education__school {
   margin-left: 1.7rem;
-  color: rgb(184, 184, 184);
+  color: #b8b8b8;
   font-size: 1.3rem;
   margin-bottom: 1rem;
 }
 
 .employment__years,
 .education__years {
-  color: rgb(184, 184, 184);
+  color: #b8b8b8;
   font-weight: normal;
   font-size: 1.3rem;
 }
 
 .employment__job-description,
 .education__description {
-  color: rgb(184, 184, 184);
+  color: #b8b8b8;
   display: flex;
 }
 
@@ -486,19 +489,19 @@ p {
 }
 
 .modal__company {
-  color: rgb(184, 184, 184);
+  color: #b8b8b8;
   font-size: 1.5rem;
   margin-bottom: 2rem;
 }
 
 .modal__years {
-  color: rgb(184, 184, 184);
+  color: #b8b8b8;
   font-weight: normal;
   font-size: 1.3rem;
 }
 
 .modal__job-description {
-  color: rgb(184, 184, 184);
+  color: #b8b8b8;
 }
 
 .modal__technologies-heading {
@@ -598,7 +601,7 @@ p {
 }
 
 .techonologies__item {
-  color: rgb(184, 184, 184);
+  color: #b8b8b8;
   font-size: 1.1rem;
   margin-bottom: 0.6rem;
   transform: perspective(2000px) rotateY(-15deg);
@@ -725,7 +728,7 @@ p {
 }
 
 .languages__percentage {
-  fill: rgb(184, 184, 184);
+  fill: #b8b8b8;
   font-family: sans-serif;
   font-size: 0.7rem;
   text-anchor: middle;
