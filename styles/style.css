@@ -64,11 +64,11 @@ p {
   background: #333;
   backface-visibility: hidden;
   border-radius: 1px;
-  /* animation: 0.9s expand; */
+  animation: 0.9s expand;
   transform-origin: left;
 }
 
-/* .resume-wrapper:before {
+.resume-wrapper:before {
   position: absolute;
   content: "";
   top: -2px;
@@ -79,7 +79,7 @@ p {
   z-index: 20;
   animation: 1s reveal reverse forwards 4s;
   transform-origin: right;
-} */
+}
 
 .resume__border {
   position: absolute;
