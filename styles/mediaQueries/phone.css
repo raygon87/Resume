@@ -16,9 +16,17 @@
     padding: 0 1.5rem;
   }
 
+  /* --- link --- */
+
   .link {
     margin-left: 0.8rem;
   }
+
+  .link:hover {
+    color: #808080;
+  }
+
+  /* --- profile --- */
 
   .profile {
     padding-top: 5.5rem;
@@ -38,7 +46,7 @@
 
   .profile__info {
     position: absolute;
-    top: 9.3rem;
+    top: 9rem;
     left: 11.2rem;
     margin-top: 1.4rem;
     font-size: 1.2rem;
@@ -65,6 +73,16 @@
     font-size: 1.3rem;
   }
 
+  .profile__name {
+    font-size: 1.6rem;
+  }
+
+  .profile__title {
+    font-size: 1.5rem;
+  }
+
+  /* --- side icon --- */
+
   .side-icon__download {
     right: -1.6rem;
     padding: .7rem 1rem;
@@ -73,6 +91,8 @@
   .side-icon__download-link img {
     height: 1.4rem;
    }
+
+  /* --- resume --- */
 
   .resume {
     flex-wrap: wrap;
@@ -92,6 +112,21 @@
     border-top: 1px solid rgb(84, 84, 84);
   }
 
+  /* --- employment --- */
+
+  .employment__job-description {
+    margin-bottom: .5rem;
+  }
+
+  .employment__dot {
+    font-size: 2rem;
+    margin-right: 0.7rem;
+    margin-top: -.5rem;
+  }
+
+
+  /* --- technologies --- */
+
   .technologies {
     width: 60%;
     margin-right: 3rem;
@@ -104,6 +139,8 @@
   .techonologies__item-name {
     margin-bottom: 0.1rem;
   }
+
+  /* --- languages --- */
 
   .languages-hobbies-box {
     width: 50%;
@@ -125,6 +162,8 @@
   .languages__circular-chart {
     margin-bottom: 0.5rem;
   }
+
+  /* --- hobbies --- */
 
   .hobbies {
     margin-top: 2.3rem;
@@ -165,6 +204,8 @@
     z-index: 3;
   }
 
+  /* --- modal --- */
+
   .modal-wrapper {
     padding-top: 4rem;
   }
@@ -185,6 +226,10 @@
     background: none;
     border: none;
     outline: none;
+  }
+
+  .modal__years {
+    margin-top: .4rem;
   }
 
   .modal__technologies-box {
