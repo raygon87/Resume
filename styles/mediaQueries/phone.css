@@ -85,12 +85,17 @@
 
   .side-icon__download {
     right: -1.6rem;
-    padding: .7rem 1rem;
+    padding: 0.7rem 1rem;
   }
 
   .side-icon__download-link img {
     height: 1.4rem;
-   }
+  }
+
+  .side-icon__printer:hover::before,
+  .side-icon__download:hover::before {
+    left: -100%;
+  }
 
   /* --- resume --- */
 
@@ -115,15 +120,14 @@
   /* --- employment --- */
 
   .employment__job-description {
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
   }
 
   .employment__dot {
     font-size: 2rem;
     margin-right: 0.7rem;
-    margin-top: -.5rem;
+    margin-top: -0.5rem;
   }
-
 
   /* --- technologies --- */
 
@@ -229,7 +233,7 @@
   }
 
   .modal__years {
-    margin-top: .4rem;
+    margin-top: 0.4rem;
   }
 
   .modal__technologies-box {
